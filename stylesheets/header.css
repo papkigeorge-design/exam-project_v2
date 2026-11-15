@@ -1,0 +1,69 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    font-family: montserrat;
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 93px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.sub-name{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 14px;
+}
+.element1{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 12px;
+}
+.element2{
+    gap: 50px;
+}
+button{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 0px;
+    white-space: nowrap;
+    padding: 5px;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 15px;
+}
+.log-in{
+    color: teal;
+}
+
