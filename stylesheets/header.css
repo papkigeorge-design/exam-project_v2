@@ -6,6 +6,8 @@ body{
     font-family: montserrat;
     width: 100%;
     height: auto;
+    background-color: white;
+    position: fixed
 }
 a{
     text-decoration: none;
@@ -20,6 +22,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    position: fixed;
 }
 .name{
     font-size: 18px;
@@ -45,6 +48,7 @@ ul{
     height: auto;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: flex-start;
     gap: 12px;
 }
 .element2{
